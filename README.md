@@ -6,7 +6,7 @@ This project contains one R script, `run_analysis.R`, which will calculate means
 
 Once executed, the resulting dataset can be found at `./TidyData.txt`
 
-For futher details, refer to [CookBook.md](CookBook.md)
+For futher details, refer to [CodeBook.md](CodeBook.md)
 
 
 
