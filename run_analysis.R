@@ -40,4 +40,4 @@ all_data <- bind_cols(sub_all, y_all, X_all)
 by_activity_subject <- group_by(all_data, activity, subject)
 tidy_data <- summarize_each(by_activity_subject, funs(mean))
 colnames(tidy_data)[-c(1,2)] <- original_names[colnames(tidy_data)[-c(1,2)]]
-write.table(tidy_data, "TidyData.txt")
+write.table(tidy_data, "TidyData.txt", row.name=F)
